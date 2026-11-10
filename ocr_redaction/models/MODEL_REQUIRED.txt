@@ -1,0 +1,11 @@
+The trained model is included in this folder:
+
+  ocr_crnn.pt            checkpoint (CRNN, epoch 63 of the final run, 49.6 % test word accuracy)
+  ocr_crnn.vocab.json    character set
+  ocr_crnn.history.json  per-epoch training history
+
+If ocr_crnn.pt is missing, train a new one from the project folder:
+
+  py -3.14 -m training.train --data-root "<path to IIIT-5K>" --epochs 80 --threads 8 --output models\ocr_crnn.pt
+
+(see data/README.md for the dataset layout and COMMANDS.md for all commands)

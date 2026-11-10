@@ -1,0 +1,47 @@
+[
+  {
+    "word": "PRIVATE",
+    "bounding_box": [
+      67,
+      62,
+      128,
+      304
+    ]
+  },
+  {
+    "word": "PARKING",
+    "bounding_box": [
+      188,
+      63,
+      241,
+      298
+    ]
+  },
+  {
+    "word": "SALUIES",
+    "bounding_box": [
+      302,
+      69,
+      345,
+      205
+    ]
+  },
+  {
+    "word": "DOC",
+    "bounding_box": [
+      406,
+      63,
+      460,
+      191
+    ]
+  },
+  {
+    "word": "PAEPANA",
+    "bounding_box": [
+      515,
+      62,
+      580,
+      262
+    ]
+  }
+]

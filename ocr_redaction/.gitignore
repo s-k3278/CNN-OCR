@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+models/*.pt
+outputs/*
+!outputs/.gitkeep
+data/IIIT5K*
+.idea/
+.vscode/

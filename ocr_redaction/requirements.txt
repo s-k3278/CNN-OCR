@@ -1,0 +1,17 @@
+# Tested with Python 3.14 on Windows (CPU only). Python 3.10+ should work.
+#
+# Install the CPU build of PyTorch first (https://pytorch.org/get-started/locally/),
+# e.g.   pip install torch --index-url https://download.pytorch.org/whl/cpu
+# then:  pip install -r requirements.txt
+torch>=2.7
+numpy>=2.0
+opencv-python>=4.10
+pandas>=2.2
+Pillow>=10.0
+fastapi>=0.115
+uvicorn[standard]>=0.34
+python-multipart>=0.0.20
+
+# tests only
+pytest>=8.0
+httpx>=0.27
